@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Aishwarya M</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Hi, I'm Aishwarya M</h1>
+        <p>A passionate Web Developer | 3rd Year Engineering Student</p>
+    </header>
+
+    <section id="home">
+        <img src="profile_image.webp" alt="Aishwarya M" class="profile-img">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Specializing in front-end and back-end web development. I build interactive, user-friendly applications.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="about_image.webp" alt="About Me" class="section-img">
+        <p>I am a <strong>3rd-year engineering student</strong> with a passion for creating visually stunning and efficient web applications.  
+        My expertise includes <strong>HTML, CSS, JavaScript, React, and Node.js</strong>.</p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <img src="skills_image.webp" alt="Skills" class="section-img">
+        <ul>
+            <li>HTML / CSS / JavaScript</li>
+            <li>React.js / Node.js</li>
+            <li>Responsive Web Design</li>
+            <li>Database Management</li>
+            <li>Version Control (Git & GitHub)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <img src="responsive_landing_image.webp" alt="Landing Page Project" class="project-img">
+            <h3>Responsive Landing Page</h3>
+            <p>A modern and fully responsive landing page designed for various devices.</p>
+            <button onclick="showDetails('landing-page')">View Details</button>
+        </div>
+        <div class="project">
+            <img src="stopwatch_image.webp" alt="Stopwatch Project" class="project-img">
+            <h3>Stopwatch Web Application</h3>
+            <p>A simple yet effective stopwatch application built using JavaScript.</p>
+            <button onclick="showDetails('stopwatch')">View Details</button>
+        </div>
+        <div class="project">
+            <img src="tic_toc_toe_image.webp" alt="Tic Tac Toe Project" class="project-img">
+            <h3>Tic Tac Toe Web Application</h3>
+            <p>A fun and interactive Tic Tac Toe game for two players.</p>
+            <button onclick="showDetails('tic-tac-toe')">View Details</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-response"></p>
+    </section>
+
+    <footer>
+        <h3>Connect with Me</h3>
+        <a href="https://www.linkedin.com/in/aishwarya-m-4676a3319/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/Aishwarya-go" target="_blank">GitHub</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
